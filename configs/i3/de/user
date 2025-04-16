@@ -1,6 +1,6 @@
 #яркость
-bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl s 32+
-bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 32-
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl s 10%+
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 10%-
 
 #громкость
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%

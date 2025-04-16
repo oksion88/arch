@@ -11,21 +11,16 @@ font pango:monospace 12
 ########################## KEYS ##########################
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
-#bindsym $mod+F1 exec blueman-manager
+bindsym $mod+F1 exec blueman-manager
 bindsym $mod+F2 exec pcmanfm
-#bindsym $mod+F3 exec chromium
-#bindsym $mod+F4 exec nm-connection-editor
-bindsym $mod+Z exec --no-startup-id i3lock --image /home/ehot/work/img/data2.png --tiling -k
+bindsym $mod+F3 exec chromium
+bindsym $mod+F4 exec nm-connection-editor
+bindsym $mod+Z exec --no-startup-id i3lock --image /home/ehot/work/img/data2.png --tiling --keylayout
 bindsym $mod+A exec /opt/sublime_text/sublime_text
 bindsym $mod+d exec --no-startup-id rofi -show run -font "Noto Sans 13"
-bindsym $mod+q kill
-
-### TERMINAL ###
-#bindsym $mod+Return exec kitty /bin/zsh
+bindsym $mod+Return exec kitty /bin/zsh
 #bindsym $mod+Return exec alacritty
-#bindsym $mod+Return exec xfce4-terminal
-bindsym $mod+Return exec i3-sensible-terminal
-
+bindsym $mod+q kill
 
 ##### BAR #####
 exec_always --no-startup-id bash ~/.config/i3/scr/bar.sh

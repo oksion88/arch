@@ -1,3 +1,4 @@
+#set $ws0 "0"
 set $ws1 "1"
 set $ws2 "2"
 set $ws3 "3"
@@ -10,6 +11,7 @@ set $ws9 "9"
 set $ws10 "10"
 
 # switch to workspace
+#bindsym $mod+x workspace number $ws0
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2
 bindsym $mod+3 workspace number $ws3
