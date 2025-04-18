@@ -5,6 +5,8 @@ echo "############### COPING CONFIG FILES #################"
 echo "#####################################################"
 echo " "
 
+cp apps/conf/.xinitrc ~/.zsh_history || true
+cp apps/conf/.zshrc ~/.zshrc || true
 cp apps/conf/.xinitrc ~/.xinitrc || true
 
 if [[ -d ~/.config ]]; then
